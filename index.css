@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: powderblue;
+}
+.heading {
+    margin-bottom: -3em;
+}
+h1 {
+    color: darkslategray;
+    font-family:serif; 
+    font-size:400%; 
+    font-weight:200;
+}
+h2 {
+    margin-bottom: 0.2em;
+    padding-bottom: 0.2em;
+    color: floralwhite;
+    font-family:serif; 
+    font-size:150%; 
+    font-weight:200;
+}
+h3 {
+    color: floralwhite;
+    font-family: serif; 
+    font-size: 200%; 
+    font-weight: 100;
+}
+h4,h5,h6 {
+    margin-top: -0.2em;
+    padding-top: 0.2em;
+    color: darkslategray;
+    font-family: monospace; 
+    font-size:200%; 
+    font-weight:200;
+}
+    
+.upper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    background-color: darkslategray;
+    margin: 1rem;
+    padding: 1rem;
+}
+p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family:serif; 
+    font-size: 150%; 
+    font-weight: 100;
+    border: 1px slategray;
+    color: darkslategray;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    background-color: floralwhite;
+    align-content: flex;
+    image-orientation: center;
+    margin: 2rem;
+    padding: 4rem;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    background-color: powderblue;
+    margin: 0rem;
+    padding: 4rem;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 30px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 4px;
+  margin: 2px 4px;
+  cursor: pointer;
+}
+.button1 {background-color: lightpink;} 
+
+.transition-on-hover:hover{
+    transform: scale(1.5);
+}
